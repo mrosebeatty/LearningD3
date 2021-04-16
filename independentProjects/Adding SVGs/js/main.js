@@ -1,5 +1,5 @@
 /*
-Adding SVGs to the screen
+Adding SVGs to the screen, I made a robot, with two arms for lines , circle body , circle head, and square neck. 
 */
 
 //canvas area 500x400
@@ -24,17 +24,29 @@ svg.append('ellipse')
 
 //Rectangle SVG
 svg.append('rect')
-.attr("x",0)
-.attr("y",0)
+.attr("x",170)
+.attr("y",45)
 .attr("width",150)
 .attr("height",50)
-.attr("fill",purple)
+.attr("fill",'purple')
 
-//Line SVG
+/* Line SVG - for line svg's you need a style component or else line will be invisibile*/
 svg.append('line')
-.attr("x1",0)
-.attr("y1",80)
-.attr("x2",100)
-.attr("y2",20)
-.attr("stroke",blue)
+.style("stroke",'blue')
+.style("stroke-width",10)
+.attr("x1",50)
+.attr("y1",150)
+.attr("x2",150)
+.attr("y2",200)
+
+svg.append('line')
+.style("stroke",'blue')
+.style("stroke-width",10)
+.attr("x1",350)
+.attr("y1",200)
+.attr("x2",450)
+.attr("y2",150)
+
+
+
 
