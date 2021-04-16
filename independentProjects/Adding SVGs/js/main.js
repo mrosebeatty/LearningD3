@@ -16,8 +16,25 @@ svg.append("circle")
 
 //Ellipse SVG
 svg.append('ellipse')
-.attr("cx", 145)
+.attr("cx", 245)
 .attr("cy",25)
 .attr("rx",25)
 .attr("ry",15)
-.attr("fill", "gray")
+.attr("fill", "pink")
+
+//Rectangle SVG
+svg.append('rect')
+.attr("x",0)
+.attr("y",0)
+.attr("width",150)
+.attr("height",50)
+.attr("fill",purple)
+
+//Line SVG
+svg.append('line')
+.attr("x1",0)
+.attr("y1",80)
+.attr("x2",100)
+.attr("y2",20)
+.attr("stroke",blue)
+
